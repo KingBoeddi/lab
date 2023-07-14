@@ -1,8 +1,12 @@
 package com.vs.lab;
 
+import org.springframework.stereotype.Service;
 
-public class HelloWorld {
+@Service
+public class HelloService {
+    
     public String getMessage() {
         return "Hello, World!";
     }
+    
 }
